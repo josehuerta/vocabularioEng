@@ -1,0 +1,188 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22/05/2018, 01:32:28 PM
+    Author     : LALO
+*/
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    
+    background-color: rgb(158, 172, 221);
+    background-size: cover;
+    color: white;
+}
+
+#menu{
+    margin: 0%;
+    padding: 0%;
+    margin-top: 0.5%;
+}
+button{
+    color: white;
+    background-color: rgb(234, 183, 61);
+    font-size: 120%;
+    vertical-align: top;
+    padding-top: 0.4%;
+    padding-bottom: 0.4%;
+    font-weight: bold; 
+}
+h2{
+    display: inline-block;
+    margin: 0%;
+    font-size: 300%;
+    padding-right: 10%;
+    margin-left: 20%;
+    background-color: rgb(234, 183, 61);
+    border-radius: 15px;
+}
+
+#calificar{
+   display: inline-block;
+   margin: 0%;
+   width: 8%;
+   font-size: 150%;
+   margin-left: 20%;
+   border-radius: 10px;
+}
+#intentar,#btnlistaAnimales{
+   display: inline-block;
+   margin: 0%;
+   width: 14%;
+   font-size: 150%;
+   border-radius: 12px;
+}
+/*contenedor imagenes*/
+.imagenes{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    border: solid 5px;
+    border-radius: 15px;
+   
+    float: left;
+    margin-top: 1%;
+    margin-left: 3%;
+   
+    
+}
+
+/*contenedor de resultados*/
+.respuestas{
+    margin: 0%;
+    padding: 0%;
+    width: 15%;
+    border: solid 5px;
+    border-radius: 15px;
+    
+    float: left;
+    margin-top: 15%;
+    margin-left: 2%;
+   
+ 
+}
+/*contenedores de las imagenes*/
+.contenedores{
+    margin: 0%;
+    padding: 0%;
+    display: inline-block;
+    border-radius: 15px;
+    width: 22%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+    vertical-align: top;
+    margin-left: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    
+}
+.contenedores:hover{
+    background-color: rgb(231, 223, 4);
+}
+.contenedores p{
+    width: 80%;
+    border:solid white;
+    border-radius: 5px;
+    font-size: 200%;
+    text-align: center;
+    
+    margin-left: 10%;
+    margin-top: 142%;
+    font-weight: bold; 
+    
+}
+.respuestas p{
+    width: 90%;
+    border:solid white;
+    border-radius: 5px;
+    
+    font-size: 200%;
+    text-align: center;
+    
+    margin-left: 5%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    font-weight: bold; 
+}
+
+
+.respuestas p:hover{
+    border: solid rgb(179, 112, 218) 5px;
+}
+
+
+
+
+
+/*Ventana modal de calificacion*/
+.ventanaCalificacion{
+			position: fixed;
+			border-radius: 15px;
+			top:0%;
+			
+			margin-left: 25%;
+			margin-top: 10%;
+			width: 40%;
+			height: 50%;
+
+			
+			display: none;
+			background: rgba(172, 152, 211,0.9);
+		}
+		button{
+			margin-left: 40%;
+		}
+		img.imgcalificacion{
+			width: 20%;
+		}
+		p.rescalificacion{
+			margin-left: 10%;
+			display: inline;
+			font-size: 350%;
+			vertical-align: top;
+		}
+		#aciertos{
+			border-radius: 15px;
+			width: 90%;
+			margin-top: 10%;
+			margin-left: 5%;
+			background-color: orange;
+		}
+		#errores{
+			border-radius: 15px;
+			width: 90%;
+			margin-top: 10%;
+			margin-left: 5%;
+			background-color: red;
+		}
+                .ventanaCalificacion div p{
+                    border: none;
+                }
+

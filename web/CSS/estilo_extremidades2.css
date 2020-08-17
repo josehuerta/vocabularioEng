@@ -1,0 +1,203 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2/06/2018, 12:55:46 PM
+    Author     : LALO
+*/
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: rgb(158, 172, 221);
+    background-size: cover;
+    color: white;
+    font-family: "Tahoma", "Geneva", sans-serif;
+    font-weight: bold; 
+}
+#menu{
+    margin: 0%;
+    padding: 0%;
+    margin-top: 0.5%;
+}
+button{
+    color: white;
+    background-color: rgb(234, 183, 61);
+    font-size: 120%;
+    vertical-align: top;
+    padding-top: 0.4%;
+    padding-bottom: 0.4%;
+}
+h2{
+    display: inline-block;
+    margin: 0%;
+    font-size: 280%;
+    margin-left: 20%;
+    background-color: rgb(234, 183, 61);
+    border-radius: 15px;
+}
+
+#calificar{
+   display: inline-block;
+   margin: 0%;
+   width: 8%;
+   font-size: 150%;
+   margin-left: 14%;
+   border-radius: 10px;
+   
+}
+#intentar,#btnlistaC2{
+   display: inline-block;
+   margin: 0%;
+   width: 14%;
+   font-size: 150%;
+   border-radius: 10px;
+}
+.respuestas{
+    border: solid;
+    border-radius: 15px;
+    width: 14%;
+    margin-left: 2%;
+    margin-top: 10%;
+    display: inline-block;
+    float: left;
+    
+}
+.cuerpo{
+   border: solid;
+   border-radius: 6%;
+   width: 64%;
+   margin-left: 2%;
+   margin-top: 1%;
+   display: inline-block;
+   float: left;
+}
+
+img{
+   
+    width: 38%;;
+   display:inline-block; 
+  
+}
+
+#contenedor1{
+    
+    width: 24%;
+    display: inline-block;
+    float: left;
+    margin-left: 6%;
+    margin-top: 25%;
+}
+#contenedor2{
+    margin: 0%;
+    width: 24%;
+    display: inline-block;
+    float: right;
+    margin-right: 7%;
+    margin-top: 28%;
+}
+.contenedores p{
+    border: solid;
+    border-radius: 10px;
+    width: 90%;
+    text-align: center;
+    font-size: 142%;
+    padding: 2%;
+    margin-top: 1%;
+    
+}
+.respuestas p{
+    border: solid;
+    border-radius: 10px;
+    width: 90%;
+    text-align: center;
+    font-size: 142%;
+    padding: 2%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 2%;
+    
+}
+.respuestas p:hover{
+    border: solid rgb(179, 112, 218) 5px;
+}
+#txt11{
+   margin-top: 7%;
+}
+#txt12{
+   margin-top: 7%;
+}
+#txt13{
+   margin-top: 15%;
+}
+#txt14{
+   margin-top: 14%;
+}
+#txt15{
+   margin-top: 10%;
+}
+#txt16{
+   margin-top: 4%;
+}
+#txt18{
+   margin-top: 25%;
+}
+#txt19{
+   margin-top: 10%;
+}
+#txt20{
+   margin-top: 20%;
+}
+#txt21{
+   margin-top: 22%;
+}
+
+/*Ventana modal de calificacion*/
+.modal{
+			position: fixed;
+			border-radius: 15px;
+			top:0%;
+			
+			margin-left: 28%;
+			margin-top: 10%;
+			width: 40%;
+			height: 50%;
+
+			
+			display: none;
+			background: rgba(172, 152, 211,0.9);
+		}
+		button{
+			margin-left: 40%;
+		}
+		img.imgcalificacion{
+			width: 20%;
+		}
+		p.rescalificacion{
+			margin-left: 10%;
+			display: inline;
+			font-size: 350%;
+			vertical-align: top;
+		}
+		#aciertos{
+			border-radius: 15px;
+			width: 90%;
+			margin-top: 10%;
+			margin-left: 5%;
+			background-color: orange;
+		}
+		#errores{
+			border-radius: 15px;
+			width: 90%;
+			margin-top: 10%;
+			margin-left: 5%;
+			background-color: red;
+		}
+                .modal div p{
+                    border: none;
+                }
+

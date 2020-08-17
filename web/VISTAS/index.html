@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+         <script type="text/javascript" src="../JS/jquery-3.3.1.js"></script>
+         <script type="text/javascript" src="../JS/inicio.js"></script>
+        <link rel="stylesheet" type="text/css" href="../CSS/estilo_index.css"  />
+    </head>
+    <body>
+        
+        <div id="entrada">
+            <h2 id="tituloinicial">Vocabulario en inglés</h2>
+            <img src="../IMG/logo.png" id="logo">
+            <button id="btnIngresar"><img src="../IMG/feliz.png">Ingresar</button>
+            <button id="btnNuevousuario"><img src="../IMG/sorprendido.png">No tengo cuenta</button>
+            
+        </div>
+        
+        
+        
+         <div id="ventanaInicioSesion">
+          
+            <h2 id="registro">Ingresar</h2>
+            <form method="post">
+                <label>E-mail:</label>
+                <input type="email" placeholder="Correo electronico" id="correoUsuario">
+                <label>Contraseña:</label>
+                <input type="text" placeholder="Contraseña" id="passUsuario" >
+                <button id="btnIniciarsesion">Ingresar</button>
+            </form> 
+            
+        </div>
+        
+        
+        
+        <div id="ventanaRegistro">
+          
+            <h2 id="registro">Registro</h2>
+            <form  method="post">
+                <label>Nombre(s):</label>
+                <input type="text" placeholder="Nombre(s)"  id="nombreRegistro">
+                <label>Apellidos:</label>
+                <input type="text" placeholder="Apellido(s)"  id="apeRegistro">
+                <label>E-mail:</label>
+                <input type="email" placeholder="Correo electronico" id="correoRegistro" >
+                <label>Contraseña:</label>
+                <input type="text" placeholder="Ej:ani143" id="passRegistro"  >
+                
+                <input type="submit" id="btnRegistrar" value="Registrar">
+            </form> 
+            
+        </div>
+        
+        <div id="ventanaError">
+            <h2> Algun dato es erroneo </h2>
+        </div>
+        
+    </body>
+</html>

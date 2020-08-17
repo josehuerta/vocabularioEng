@@ -1,0 +1,111 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17/06/2018, 12:00:00 PM
+    Author     : LALO
+*/
+
+body{
+   margin: 0%;
+   padding: 0%;
+   color: white;
+}
+#entrada{
+    background-color: rgb(163, 149, 221);
+    padding-bottom:18%;
+    color: white;
+}
+#instrucciones{
+    margin-top: 0%;
+    background-color: rgb(213, 234, 237);
+    padding-bottom: 40%;
+    color: black;
+    text-align: center;
+    font-size: 200%;
+}
+h2{
+    margin-top: 0.5%;
+    text-align: center;
+}
+img{
+    width: 20%;
+}
+#logo{
+}
+
+button,input[type="submit"]{
+    display: inline-block;
+    width:20%;
+    border-radius: 15px;
+    background-color: rgb(234, 183, 61);
+    
+    font-size: 200%;
+}
+#btnNuevousuario{
+   margin-top: 20%;
+}
+#btnIngresar{
+   
+    margin-top: 10%;
+}
+/*estilo para ventanas de registro y de inicio de sesión*/
+#ventanaRegistro,#ventanaInicioSesion,#ventanaError{
+	position: fixed;
+        border-radius: 15px;
+	top:0%;
+			
+	margin-left: 62%;
+	margin-top: 6%;
+	width: 30%;
+	height: 50%;
+		
+	display: none;
+	background: rgba(187, 206, 64,0.6);
+}
+label{
+                    
+    display: block;
+    font-size: 230%;
+    text-align: center;
+                    
+}
+input{
+                    
+    display: block;
+    font-size: 130%;
+    margin-left: 25%;
+                  
+}
+#btnRegistrar{
+    margin-left: 32%;;
+    margin-top: 4%;
+    width: 40%;
+}
+/*Titulo de la ventana de registro*/
+#registro{
+    background-color: orange;
+    font-size: 200%;
+    margin-bottom: 0%;
+}
+
+
+#btnIniciarsesion{
+    margin-left: 32%;;
+    margin-top: 4%;
+    width: 40%;
+}
+#ventanaError{
+    background-color: red;
+    color:white;
+    font-size: 300%;
+}
+
+h2#tituloinicial{
+   margin: 0%;
+    background-color: orange;
+    text-align: center;
+    font-size: 400%;
+}

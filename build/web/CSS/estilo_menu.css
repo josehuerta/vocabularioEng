@@ -1,0 +1,146 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21/05/2018, 11:18:19 AM
+    Author     : LALO
+*/
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(158, 172, 221);
+    background-size: cover;
+    color: white;
+} 
+h2{
+    display: inline-block;
+    text-align: center;
+    font-size: 300%;
+    vertical-align: top;
+    
+}
+div{
+    padding: 0%;
+    margin: 0%;
+    border: solid white 5px;
+    border-radius: 15px;
+    width: 90%;
+    display: inline-block;
+    margin-left:3%;
+    margin-top: 1.5%;
+    margin-bottom: 2%;
+    padding: 2%;
+}
+div.menu{
+    background-color: orange;
+    border-radius: 15px;
+    padding: 0%;
+}
+button{
+    width: 12%;
+    display: inline-block;
+    background-color: orange;
+    border-radius: 15px;
+    color: white;
+    font-size: 150%;
+    margin-left: 70%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    
+   
+    
+}
+#verbos{
+   background-color:  rgb(209, 231, 51);
+}
+
+#animales{
+    
+   background-color:  rgb(209, 147, 51);
+}
+#partesCuerpo{
+    background-color: rgb(141, 197, 33);
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 200%;
+    vertical-align: top;
+}
+
+#contenedorC1{
+    background-image:url("../IMG/cuerponiño.jpg");
+}
+#contenedorC2{
+    background-image:url("../IMG/cuerponiña.jpg");
+}
+#contenedorC1,#contenedorC2{
+    width: 25%;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 28%; 
+    opacity: 0.8;
+    
+   
+}
+h3{
+    display: block;
+    margin: 0%;
+    padding: 0%;
+    
+    text-align: center;
+    background-color: rgb(114, 135, 231);
+    
+}
+#partesCuerpo a{
+    display: inline-block;
+    width: 40%;
+    margin-left: 5%;
+    
+}
+img{
+    width: 100%;
+    
+}
+.imgcuerpo{
+    width: 100%;
+    height: min-content;
+    
+   
+}
+
+h3#titulocuerpo{
+    margin-bottom: 1%;
+    font-size: 250%;
+}
+.progreso{
+    border: blueviolet;
+    border-radius: 0px;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+}
+.progreso .cantidadProgreso{
+    margin: 0%;
+    padding: 0%;
+    border-radius: 0px;
+    background-color: rgb(177, 197, 65);
+    text-align:center;
+    color:white
+    
+    
+}
+p{
+    padding: 0%;
+    margin: 0%;
+    font-size: 80%;
+}
+
+
